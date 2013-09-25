@@ -1,0 +1,40 @@
+syntax: glob
+Debug
+THG.lnk
+ipch
+vlcfrontend.sdf
+vlcfrontend.suo
+vlcfrontendDebug.pdb
+vlcfrontendDebug.exe
+vlcfrontendDebug.ilk
+plugins
+vlcfrontend.opensdf
+Release/
+vlcfrontendRelease.exe
+vlcfrontendRelease.pdb
+vlcfrontendRelease.ilk
+data/
+OptimizedDebug
+vlcfrontendOptimizedDebug.exe
+vlcfrontendOptimizedDebug.ilk
+vlcfrontendOptimizedDebug.pdb
+boost/
+shortcuts.list
+settings.xml
+Français.lang
+filezilla.lnk
+mediaTimes.xml
+PADGen.lnk
+*.lang.sample
+juceVLC.exe
+JuceVLCsetup-*.exe
+juceVLC-exeOnly-*.zip
+Jucer.exe
+mpc-hc-master/**
+src/Nouveau dossier/**
+icons/iconic/vector/
+boost_*.dll
+thumbnails
+syntax: regexp
+FontResource.cpp
+FontResource.h

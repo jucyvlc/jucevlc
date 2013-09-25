@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="video media player vlc fullscreen mouse simple" />
+<meta name="description" content="Juce VLC" />
+<LINK REL="SHORTCUT ICON" HREF="logo.ico">
+<link href='http://fonts.googleapis.com/css?family=Englebert|Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">JuceVLC</a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="#news" accesskey="1" title="">News</a></li>
+			<li><a href="http://sourceforge.net/projects/jucevlc/files/latest/download" accesskey="2" title="" target="_blank">Download</a></li>
+			<li><a href="#screenshots" accesskey="1" title="">Screenshots</a></li>
+			<li><a href="http://sourceforge.net/projects/jucevlc/" accesskey="2" title="" target="_blank">Sourceforge project</a></li>
+		</ul>
+	</div>
+</div>
+<div id="wrapper" class="container">
+	<div id="page">
+		<div id="content">
+			<a href="#" class="image-style"></a>
+			<img src="images/banner.jpg" width="600" height="256" alt="" />
+			<h2>A fullscreen User Interface for VLC</h2>
+				<h3>Summary</h3>
+					<p><strong>JuceVLC</strong> is VLC with a simple MediaCenter-like fullscreen User Interface.</p>
+				<h3>Goal</h3>
+					<p>Browse and watch movies from your couch with a wireless mouse.</p>
+				<h3>Features</h3>
+					<p><ul>
+						<li>Browse local or remote (via UPNP) files and adjust settings using <strong>On Screen Display</strong> (O.S.D.)</li>
+						<li>Frontpage movies menu with automatically downloaded posters (from <a href="http://www.omdbapi.com/">omdbapi.com</a>) or generated thumbnails (no setup required)</li>
+						<li><strong>Big, customizable fonts size</strong> and no tiny popup dialogs</li>
+						<li><strong>Subtitles</strong> selection and synchronization using slider via O.S.D.</li>
+						<li>Search,Download,Extract and Load subtitles from <a href="opensubtitles.org">opensubtitles.org</a></li>
+						<li>Keep last and <strong>favorite video folders</strong>, as well as the last thirty videos positions</li>
+						<li><strong>Does not mess up your system</strong>: settings are stored in the application folder, not the registry (even through the installer)</li>
+						<li>Portable: Paste is on any <strong>usb key or external hard drive</strong></li>
+						<li>You can use the <strong>installer</strong> multiple times:<ul><li> once for your computer, activating shortcut creation, </li><li>and again for your usb key or external hard drive.</li></ul> Since it does not store anything in the registry subsequent installs won't affect the previous ones (except shortcut creation)</li>
+						<li>JuceVLC application uses <strong>regular VLC core libraries/plugins</strong>: You can paste future VLC versions directory along JuceVLC to update the core video player without any JuceVLC update</li>
+						<li>The "space-key" allows your relatives to play/pause your video if they want to interrupt your watching session;-)</li>
+					</ul></p>
+				<h3>Contact</h3>
+					<p><a href="mailto:jucevlc@users.sourceforge.net">Matthieu A.</a></p>
+			
+		
+			<a id="news"></a><a href="#news" class="link-style1">News</a><br>
+			<ul class="list-style1">
+				<li class="first">
+					<h3>0.81 (2013/09/25):</h3>
+					<ul>
+						<li class="first">Fixes endless/useless files scanning</li>
+					</ul>
+				</li>
+				<li class="first">
+					<h3>0.80 (2013/09/24):</h3>
+					<ul>
+						<li class="first">New frontpage movie browser with posters or thumbnails (thanks to <b><u>Mark Pietras</u></b> for the motivation/inspiration)</li>
+						<li class="first">libVLC 2.0.8</li>
+					</ul>
+				</li>
+				<li class="first">
+					<h3>0.71 (2013/07/24):</h3>
+					<ul>
+						<li class="first">Search,Download,Extract and Load subtitles from opensubtitles.org</li>
+					</ul>
+				</li>
+				<li class="first">
+					<h3>0.70 (2013/07/20):</h3>
+					<ul>
+						<li class="first">Revamped menu : top item are always visible when listing many files</li>
+					</ul>
+				</li>
+				<li class="first">
+					<h3>0.69 (2013/06/24):</h3>
+					<ul>
+						<li class="first">UPNP remote media support and browsing</li>
+					</ul>
+				</li>
+				<li class="first">
+					<h3>0.68 (2013/06/12):</h3>
+					<ul>
+						<li class="first">libVLC 2.0.7</li>
+					</ul>
+				</li>
+			
+				<li class="first">
+					<h3>0.67 (2013/05/10):</h3>
+					<ul>
+						<li class="first">Save current crop ratio as it is not video but screen dependant</li>
+						<li class="first">Auto purge missing favorite folders on available drives</li>
+						<li class="first">Fixed secondary slider (audio offset...) reset after using arrows</li>
+						<li class="first">Fixed video position no recovered from current playlist selection</li>
+						<li class="first"> Hide menu instead of shriking it on file open</li>
+					</ul>
+				</li>
+			
+				<li class="first">
+					<h3>0.66 (2013/04/11):</h3>
+					<ul>
+						<li class="first">libVLC 2.0.6</li>
+					</ul>
+				</li>
+			
+				<li class="first">
+					<h3>0.65 (2013/04/06):</h3>
+					<ul>
+						<li class="first">File listing sorting improvement</li>
+						<li class="first">Auxiliary slider reset button</li>
+						<li class="first">Fullscreen button</li>
+						<li class="first">Auxiliary slider function selection icons improvement</li>
+					</ul>
+				</li>
+				
+				<li class="first">
+					<h3>0.6 (2013/03/24):</h3>
+					<ul>
+						<li class="first">Audio equaliser (presets)</li>
+						<li class="first">Advanced subtitle configuration (colors, opacity,...) WARNING they are applied to the next played video</li>
+						<li class="first">File browsing improvement (sorting and icons)</li>
+						<li class="first">non disappearing controls fix</li>
+					</ul>
+				</li>
+			
+				<li class="first">
+					<h3>0.5 (2013/03/21):</h3>
+					<ul>
+						<li class="first">Installer (copying the new exe over previous installs still works) The application is still as portable as previously, the installer behaves just like extracting an archive, plus optionnal shortcuts creation.</li>
+						<li class="first">Localization support (English/French for now) -> look at "France.lang" to add other languages</li>
+						<li class="first">Automatic subtitles position mode (always above controls)</li>
+					</ul>
+				</li>
+
+				<li class="first">
+					<h3>0.4 (2013/03/17):</h3>
+					<ul>
+						<li class="first">Save last 30 videos progress</li>
+						<li class="first">Subtitles position slider (avoids subtitles being hidden by controls)</li>
+						<li class="first">Smarter OSD Controls disappearing</li>
+						<li class="first">Fixed moved window flickering</li>
+						<li class="first">Added new configuration option (subtitles size, video deinterlace, video acceleration, video quality). They affect the next played video (added Apply option for this)</li>
+					</ul>
+				</li>
+
+				<li class="first">
+					<h3>0.3 (2013/03/16):</h3>
+					<ul>
+						<li class="first">Fixed windowed mode being activated on video stop</li>
+						<li class="first">Fixed window dragging with a new title bar</li>
+						<li class="first">Added font size selection</li>
+						<li class="first">Added new icons</li>
+					</ul>
+				</li>
+
+				<li class="first">
+					<h3>0.2 (2013/03/15):</h3>
+					<ul>
+						<li class="first">Fixed disappearing controls on pause or slider movement</li>
+						<li class="first">Added video adjustments (contrast, ...)</li>
+						<li class="first">Moved windowed/fullscreen options to player sub-menu</li>
+					</ul>
+				</li>
+
+				<li class="first">
+					<h3>0.1 (2013/03/04):</h3>
+					<ul>
+						<li class="first">First release </li>
+					</ul>
+				</li>
+			</ul>
+			<a id="screenshots"></a><a href="#screenshots" class="link-style1">Screenshots</a>
+				<h4 align="left">Frontpage movies posters/thumbnails</h4>
+				<img src="screenshots/frontpage.jpg">
+				<h4 align="left">Filesystem browser</h4>
+				<img src="screenshots/open.jpg">
+				<h4 align="left">On Screen Display</h4>
+				<img src="screenshots/playing.jpg">
+				<h4 align="left">Subtitles management and adjustment</h4>
+				<img src="screenshots/subtitles.jpg">
+				<h4 align="left">Quick adjustement : audio volume, subtitles delay, audio delay, playback speed, disable</h4>
+				<img src="screenshots/quickAdjust.jpg">
+				<h4 align="left">Video settings</h4>
+				<img src="screenshots/imageSettings.jpg">
+		</div>
+		<div id="sidebar">
+			<div id="sbox2">
+				<h2>Links / Credits</h2>
+					<ul class="list-style2">
+						<li class="first">Powered by <a href="http://wiki.videolan.org/LibVLC" target="_blank">LibVLC</a></li>
+						<li>User Interface based on <a href="http://rawmaterialsoftware.com/juce.php" target="_blank">Juce</a></li>
+						<li>Logo/Icon by <a href="http://mustafahaydar.deviantart.com/art/colorful-vlc-icons-for-dock-210183020" target="_blank">mustafahaydar</a></li>
+						<li>Using <a href="http://www.boost.org/" target="_blank">Boost</a></li>
+						<li>Source code managed with <a href="http://mercurial.selenic.com" target="_blank">Mercurial</a></li>
+					</ul>
+			</div>
+			<a href="#" class="image-style"><img src="images/vlc.jpg" alt="" /></a>
+			<div id="sbox2">
+				<h2>Reviews</h2>
+					<ul class="list-style2">
+						<li class="first"><a href="http://www.softmazing.com/a-fullscreen-gui-for-vlc-player-jucevlc/" target="_blank">www.softmazing.com</li>
+						<li><a href="http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fconnectfreegadget.com%2Fblog%2Fjucevlc_video_player_na_baze_vlc_obzor%2F2013-03-21-683" target="_blank">connectfreegadget.com</a> (<a href="http://connectfreegadget.com/blog/jucevlc_video_player_na_baze_vlc_obzor/2013-03-21-683"" target="_blank">Russian</a>)</li>
+						<li><a href="http://www.ilovefreesoftware.com/08/windows/mp3/jucevlc-video-player.html" target="_blank">www.ilovefreesoftware.com</a></li>
+						<li><a href="http://jucevlc.findmysoft.com/" target="_blank">www.findmysoft.com</a></li>
+						<li><a href="http://jucevlc.en.lo4d.com/" target="_blank">www.lo4d.com</a></li>
+						<li><a href="http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.dinside.no%2F913273%2Fjucevlc-mediesenter-basert-paa-vlc" target="_blank">www.dinside.no</a> (<a href="http://www.dinside.no/913273/jucevlc-mediesenter-basert-paa-vlc"" target="_blank">Norwegian</a>)</li>
+						<li><a href="http://www.softpedia.com/get/Multimedia/Video/Video-Players/JuceVLC.shtml" target="_blank"><img src="http://www.softpedia.com/base_img/softpedia_clean_award_f.gif" alt="100% CLEAN award granted by Softpedia" /></a></li>
+						<li><a href="http://www.addictivetips.com/windows-tips/jucevlc-media-center-style-video-player-based-on-vlc/" target="_blank">www.addictivetips.com</li>
+					</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>Copyright (c) 2013 JuceVLC. All rights reserved. "Prospect" CSS Design by <a href="http://www.freecsstemplates.org">FCT</a>.</p>
+</div>
+</body>
+</html>
